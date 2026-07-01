@@ -22,7 +22,16 @@ cd mcp-local-prompt-server
 npm install
 ```
 
-## Adding prompts
+## Included prompts
+
+| File | Prompt name | Description |
+|---|---|---|
+| `grammer_correction_agent.md` | grammer correction agent | Fixes English grammar errors with minimal changes, preserving the user's original style |
+| `parapharasing_agent.md` | parapharasing agent | Paraphrases text with configurable tone (professional, casual, etc.) and length adjustments |
+| `prompt_enhancement_agent.md` | prompt enhancement agent | Refines user inputs into structured, actionable prompts |
+| `summerization_agent.md` | summerization agent | Summarizes and structurally maps long texts with metadata, TL;DR, and hierarchical outlines |
+
+## Adding more prompts
 
 Create a file in the `prompts/` directory:
 
@@ -33,7 +42,7 @@ prompts/
 └── writing_feedback.yaml
 ```
 
-Supported extensions: `.txt`, `.md`, `.yaml`, `.yml`, `.json`. Hyphens and underscores in filenames are converted to spaces for the prompt name.
+Supported extensions: `.txt`, `.md`, `.yaml`, `.yml`, `.json`. Hyphens and underscores in filenames are converted to spaces for the prompt name. No code changes needed — prompts are registered automatically on the next server start.
 
 ## Usage
 
