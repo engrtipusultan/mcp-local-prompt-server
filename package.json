@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An MCP server that dynamically registers prompt templates from local files and serves them to clients with the assistant role (not user).",
   "author": "Tipu Sultan",
-  "main": "dist/server.js",
+  "main": "server.ts",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",

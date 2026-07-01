@@ -9,6 +9,12 @@ An MCP server that dynamically registers prompt templates from local files and s
 - **Assistant role delivery** — Prompts are served with `role: "assistant"`, so clients treat the content as system-level guidance, not user input
 - **Stdio transport** — Connects via standard input/output, compatible with any MCP host
 
+## Example
+
+![MCP Inspector showing the registered prompts available from the server](screenshot/Screenshot%20from%202026-07-01%2013-32-34.png)
+
+The screenshot shows the MCP Inspector listing all 4 prompts after the server starts.
+
 ## Prerequisites
 
 - Node.js 18+
