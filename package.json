@@ -1,0 +1,22 @@
+{
+  "name": "mcp-local-prompt-server",
+  "version": "1.0.0",
+  "description": "An MCP server that dynamically registers prompt templates from local files and serves them to clients with the assistant role (not user).",
+  "author": "Tipu Sultan",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "tsx server.ts"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
