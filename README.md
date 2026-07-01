@@ -100,4 +100,4 @@ On startup, the server scans the `prompts/` directory for supported files. Each 
 
 ## License
 
-ISC
+Apache 2.0
